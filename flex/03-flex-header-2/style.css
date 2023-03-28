@@ -52,18 +52,20 @@ ul {
 .header {
 display:flex; 
 align-items: center;
-gap:8px;
+gap:16px;
 padding: 8px;
 }
 
 .links {
   margin-right: auto;
-}
-
-.mydiv {
-  display:flex;
-}
-
-.links {
+  margin-left: 0;
+  padding: 0;
+  gap:16px;
   display:flex; 
 }
+
+
+ .logo {
+  margin:0;
+  padding:0;
+ }
